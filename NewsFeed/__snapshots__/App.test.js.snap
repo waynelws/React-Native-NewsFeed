@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render NewsFeed renders the ActivityIndicator component 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#999999"
+  hidesWhenStopped={true}
+  size="small"
+/>
+`;
+
+exports[`Render NewsFeed renders the Image component 1`] = `
+<Image
+  style={
+    Object {
+      "height": 240,
+      "width": 320,
+    }
+  }
+/>
+`;
+
+exports[`Render NewsFeed renders the ListView component 1`] = `
+<RCTScrollView
+  dataSource={
+    ListViewDataSource {
+      "items": 3,
+    }
+  }
+  renderRow={[Function]}
+  renderScrollComponent={[Function]}
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      apple
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      banana
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      kiwi
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Render NewsFeed renders without crashing 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 30,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
