@@ -16,6 +16,10 @@ Unit testing was done using Jest.
 
 # Instructions to run the app on iOS simulator / android device or emulator
 
+### `npm install`
+
+Instal npm packages
+
 ### `npm start`
 
 Runs your app in development mode.
